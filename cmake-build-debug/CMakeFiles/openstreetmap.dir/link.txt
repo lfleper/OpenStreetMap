@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/openstreetmap.dir/main.cpp.o CMakeFiles/openstreetmap.dir/rest/APIController.cpp.o  -o openstreetmap 
