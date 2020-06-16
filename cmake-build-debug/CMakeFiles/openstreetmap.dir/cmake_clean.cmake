@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/openstreetmap.dir/main.cpp.o"
+  "CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.o"
   "CMakeFiles/openstreetmap.dir/rest/APIController.cpp.o"
+  "CMakeFiles/openstreetmap.dir/xml/Node.cpp.o"
+  "CMakeFiles/openstreetmap.dir/xml/Osm.cpp.o"
+  "CMakeFiles/openstreetmap.dir/xml/Relation.cpp.o"
+  "CMakeFiles/openstreetmap.dir/xml/Way.cpp.o"
+  "CMakeFiles/openstreetmap.dir/xml/XMLController.cpp.o"
   "openstreetmap"
   "openstreetmap.pdb"
 )

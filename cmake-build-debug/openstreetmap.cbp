@@ -85,10 +85,55 @@
 		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/main.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugiconfig.hpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.hpp">
+			<Option target="openstreetmap"/>
+		</Unit>
 		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/APIController.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
 		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/APIController.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/CURLplusplus.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Node.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Node.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Osm.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Relation.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Relation.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Way.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Way.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.h">
 			<Option target="openstreetmap"/>
 		</Unit>
 		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/CMakeLists.txt">

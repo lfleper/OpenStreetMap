@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pugixml-1.10/src/pugixml.o: pugixml-1.10/src/pugixml.cpp.o
+
+.PHONY : pugixml-1.10/src/pugixml.o
+
+# target to build an object file
+pugixml-1.10/src/pugixml.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.o
+.PHONY : pugixml-1.10/src/pugixml.cpp.o
+
+pugixml-1.10/src/pugixml.i: pugixml-1.10/src/pugixml.cpp.i
+
+.PHONY : pugixml-1.10/src/pugixml.i
+
+# target to preprocess a source file
+pugixml-1.10/src/pugixml.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.i
+.PHONY : pugixml-1.10/src/pugixml.cpp.i
+
+pugixml-1.10/src/pugixml.s: pugixml-1.10/src/pugixml.cpp.s
+
+.PHONY : pugixml-1.10/src/pugixml.s
+
+# target to generate assembly for a file
+pugixml-1.10/src/pugixml.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.s
+.PHONY : pugixml-1.10/src/pugixml.cpp.s
+
 rest/APIController.o: rest/APIController.cpp.o
 
 .PHONY : rest/APIController.o
@@ -177,6 +204,141 @@ rest/APIController.cpp.s:
 	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/rest/APIController.cpp.s
 .PHONY : rest/APIController.cpp.s
 
+xml/Node.o: xml/Node.cpp.o
+
+.PHONY : xml/Node.o
+
+# target to build an object file
+xml/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Node.cpp.o
+.PHONY : xml/Node.cpp.o
+
+xml/Node.i: xml/Node.cpp.i
+
+.PHONY : xml/Node.i
+
+# target to preprocess a source file
+xml/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Node.cpp.i
+.PHONY : xml/Node.cpp.i
+
+xml/Node.s: xml/Node.cpp.s
+
+.PHONY : xml/Node.s
+
+# target to generate assembly for a file
+xml/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Node.cpp.s
+.PHONY : xml/Node.cpp.s
+
+xml/Osm.o: xml/Osm.cpp.o
+
+.PHONY : xml/Osm.o
+
+# target to build an object file
+xml/Osm.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Osm.cpp.o
+.PHONY : xml/Osm.cpp.o
+
+xml/Osm.i: xml/Osm.cpp.i
+
+.PHONY : xml/Osm.i
+
+# target to preprocess a source file
+xml/Osm.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Osm.cpp.i
+.PHONY : xml/Osm.cpp.i
+
+xml/Osm.s: xml/Osm.cpp.s
+
+.PHONY : xml/Osm.s
+
+# target to generate assembly for a file
+xml/Osm.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Osm.cpp.s
+.PHONY : xml/Osm.cpp.s
+
+xml/Relation.o: xml/Relation.cpp.o
+
+.PHONY : xml/Relation.o
+
+# target to build an object file
+xml/Relation.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Relation.cpp.o
+.PHONY : xml/Relation.cpp.o
+
+xml/Relation.i: xml/Relation.cpp.i
+
+.PHONY : xml/Relation.i
+
+# target to preprocess a source file
+xml/Relation.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Relation.cpp.i
+.PHONY : xml/Relation.cpp.i
+
+xml/Relation.s: xml/Relation.cpp.s
+
+.PHONY : xml/Relation.s
+
+# target to generate assembly for a file
+xml/Relation.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Relation.cpp.s
+.PHONY : xml/Relation.cpp.s
+
+xml/Way.o: xml/Way.cpp.o
+
+.PHONY : xml/Way.o
+
+# target to build an object file
+xml/Way.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Way.cpp.o
+.PHONY : xml/Way.cpp.o
+
+xml/Way.i: xml/Way.cpp.i
+
+.PHONY : xml/Way.i
+
+# target to preprocess a source file
+xml/Way.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Way.cpp.i
+.PHONY : xml/Way.cpp.i
+
+xml/Way.s: xml/Way.cpp.s
+
+.PHONY : xml/Way.s
+
+# target to generate assembly for a file
+xml/Way.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/Way.cpp.s
+.PHONY : xml/Way.cpp.s
+
+xml/XMLController.o: xml/XMLController.cpp.o
+
+.PHONY : xml/XMLController.o
+
+# target to build an object file
+xml/XMLController.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/XMLController.cpp.o
+.PHONY : xml/XMLController.cpp.o
+
+xml/XMLController.i: xml/XMLController.cpp.i
+
+.PHONY : xml/XMLController.i
+
+# target to preprocess a source file
+xml/XMLController.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/XMLController.cpp.i
+.PHONY : xml/XMLController.cpp.i
+
+xml/XMLController.s: xml/XMLController.cpp.s
+
+.PHONY : xml/XMLController.s
+
+# target to generate assembly for a file
+xml/XMLController.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/xml/XMLController.cpp.s
+.PHONY : xml/XMLController.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +351,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pugixml-1.10/src/pugixml.o"
+	@echo "... pugixml-1.10/src/pugixml.i"
+	@echo "... pugixml-1.10/src/pugixml.s"
 	@echo "... rest/APIController.o"
 	@echo "... rest/APIController.i"
 	@echo "... rest/APIController.s"
+	@echo "... xml/Node.o"
+	@echo "... xml/Node.i"
+	@echo "... xml/Node.s"
+	@echo "... xml/Osm.o"
+	@echo "... xml/Osm.i"
+	@echo "... xml/Osm.s"
+	@echo "... xml/Relation.o"
+	@echo "... xml/Relation.i"
+	@echo "... xml/Relation.s"
+	@echo "... xml/Way.o"
+	@echo "... xml/Way.i"
+	@echo "... xml/Way.s"
+	@echo "... xml/XMLController.o"
+	@echo "... xml/XMLController.i"
+	@echo "... xml/XMLController.s"
 .PHONY : help
 
 
