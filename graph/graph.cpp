@@ -5,6 +5,7 @@
 #include "graph.h"
 #include "queue.h"
 #include <iostream>
+#include <string>
 #include <ctime>
 
 Graph::Graph() {
@@ -90,11 +91,22 @@ void SaveGraph(ostream &os, Graph &G) {
         else if (intValue>MAX_KNOTEN) error=23;
         else {
             G.knotenzahl=intValue;
-            os.write()
+            os << "G " + std::to_string(intValue) + "\n";
         }
     }
+    int count = 1;
     while (error == 0 && !stop) {
+        for (int l = 0; l < G.knotenzahl; l++) {
+            os << "V " + std::to_string(count) + " \"" + G.V[l+1].name + "\"\n";
 
+            for (int i = 1; i <= G.knotenzahl; i++) {
+                if (G.Adj[count][i] >= 1) {
+                    os << "E " + std::to_string(count) + " " + std::to_string(i) + " " + std::to_string(G.Adj[i][count]) + "\n";
+                }
+            }
+            ++count;
+        }
+        stop = true;
     }
 }
 
