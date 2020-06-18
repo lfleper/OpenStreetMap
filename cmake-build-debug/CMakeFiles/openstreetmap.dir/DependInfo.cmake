@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o"
+  "/home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/graph/graph.cpp.o"
+  "/home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/graph/queue.cpp.o"
   "/home/lfleper/CLionProjects/openstreetmap/main.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/main.cpp.o"
   "/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.o"
   "/home/lfleper/CLionProjects/openstreetmap/rest/APIController.cpp" "/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir/rest/APIController.cpp.o"

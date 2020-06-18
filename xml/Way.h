@@ -19,6 +19,7 @@ private:
     vector<nd_t> nd;
     vector<tag_t> tag;
 public:
+
     Way(long id, bool visible, int version, int changeset, const string &timestamp, const string &user, int uid,
         const vector<nd_t> &nd, const vector<tag_t> &tag);
 

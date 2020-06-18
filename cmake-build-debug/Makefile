@@ -123,6 +123,87 @@ openstreetmap/fast:
 	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/build
 .PHONY : openstreetmap/fast
 
+graph/GraphService.o: graph/GraphService.cpp.o
+
+.PHONY : graph/GraphService.o
+
+# target to build an object file
+graph/GraphService.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o
+.PHONY : graph/GraphService.cpp.o
+
+graph/GraphService.i: graph/GraphService.cpp.i
+
+.PHONY : graph/GraphService.i
+
+# target to preprocess a source file
+graph/GraphService.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.i
+.PHONY : graph/GraphService.cpp.i
+
+graph/GraphService.s: graph/GraphService.cpp.s
+
+.PHONY : graph/GraphService.s
+
+# target to generate assembly for a file
+graph/GraphService.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.s
+.PHONY : graph/GraphService.cpp.s
+
+graph/graph.o: graph/graph.cpp.o
+
+.PHONY : graph/graph.o
+
+# target to build an object file
+graph/graph.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/graph.cpp.o
+.PHONY : graph/graph.cpp.o
+
+graph/graph.i: graph/graph.cpp.i
+
+.PHONY : graph/graph.i
+
+# target to preprocess a source file
+graph/graph.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/graph.cpp.i
+.PHONY : graph/graph.cpp.i
+
+graph/graph.s: graph/graph.cpp.s
+
+.PHONY : graph/graph.s
+
+# target to generate assembly for a file
+graph/graph.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/graph.cpp.s
+.PHONY : graph/graph.cpp.s
+
+graph/queue.o: graph/queue.cpp.o
+
+.PHONY : graph/queue.o
+
+# target to build an object file
+graph/queue.cpp.o:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/queue.cpp.o
+.PHONY : graph/queue.cpp.o
+
+graph/queue.i: graph/queue.cpp.i
+
+.PHONY : graph/queue.i
+
+# target to preprocess a source file
+graph/queue.cpp.i:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/queue.cpp.i
+.PHONY : graph/queue.cpp.i
+
+graph/queue.s: graph/queue.cpp.s
+
+.PHONY : graph/queue.s
+
+# target to generate assembly for a file
+graph/queue.cpp.s:
+	$(MAKE) -f CMakeFiles/openstreetmap.dir/build.make CMakeFiles/openstreetmap.dir/graph/queue.cpp.s
+.PHONY : graph/queue.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -348,6 +429,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... openstreetmap"
+	@echo "... graph/GraphService.o"
+	@echo "... graph/GraphService.i"
+	@echo "... graph/GraphService.s"
+	@echo "... graph/graph.o"
+	@echo "... graph/graph.i"
+	@echo "... graph/graph.s"
+	@echo "... graph/queue.o"
+	@echo "... graph/queue.i"
+	@echo "... graph/queue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

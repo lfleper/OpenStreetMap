@@ -161,6 +161,45 @@ CMakeFiles/openstreetmap.dir/xml/Relation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openstreetmap.dir/xml/Relation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfleper/CLionProjects/openstreetmap/xml/Relation.cpp -o CMakeFiles/openstreetmap.dir/xml/Relation.cpp.s
 
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: CMakeFiles/openstreetmap.dir/flags.make
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../graph/GraphService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o -c /home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp
+
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp > CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.i
+
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp -o CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.s
+
+CMakeFiles/openstreetmap.dir/graph/graph.cpp.o: CMakeFiles/openstreetmap.dir/flags.make
+CMakeFiles/openstreetmap.dir/graph/graph.cpp.o: ../graph/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/openstreetmap.dir/graph/graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openstreetmap.dir/graph/graph.cpp.o -c /home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp
+
+CMakeFiles/openstreetmap.dir/graph/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openstreetmap.dir/graph/graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp > CMakeFiles/openstreetmap.dir/graph/graph.cpp.i
+
+CMakeFiles/openstreetmap.dir/graph/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openstreetmap.dir/graph/graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp -o CMakeFiles/openstreetmap.dir/graph/graph.cpp.s
+
+CMakeFiles/openstreetmap.dir/graph/queue.cpp.o: CMakeFiles/openstreetmap.dir/flags.make
+CMakeFiles/openstreetmap.dir/graph/queue.cpp.o: ../graph/queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/openstreetmap.dir/graph/queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openstreetmap.dir/graph/queue.cpp.o -c /home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp
+
+CMakeFiles/openstreetmap.dir/graph/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openstreetmap.dir/graph/queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp > CMakeFiles/openstreetmap.dir/graph/queue.cpp.i
+
+CMakeFiles/openstreetmap.dir/graph/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openstreetmap.dir/graph/queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp -o CMakeFiles/openstreetmap.dir/graph/queue.cpp.s
+
 # Object files for target openstreetmap
 openstreetmap_OBJECTS = \
 "CMakeFiles/openstreetmap.dir/main.cpp.o" \
@@ -170,7 +209,10 @@ openstreetmap_OBJECTS = \
 "CMakeFiles/openstreetmap.dir/xml/Node.cpp.o" \
 "CMakeFiles/openstreetmap.dir/xml/Way.cpp.o" \
 "CMakeFiles/openstreetmap.dir/xml/Osm.cpp.o" \
-"CMakeFiles/openstreetmap.dir/xml/Relation.cpp.o"
+"CMakeFiles/openstreetmap.dir/xml/Relation.cpp.o" \
+"CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o" \
+"CMakeFiles/openstreetmap.dir/graph/graph.cpp.o" \
+"CMakeFiles/openstreetmap.dir/graph/queue.cpp.o"
 
 # External object files for target openstreetmap
 openstreetmap_EXTERNAL_OBJECTS =
@@ -183,9 +225,12 @@ openstreetmap: CMakeFiles/openstreetmap.dir/xml/Node.cpp.o
 openstreetmap: CMakeFiles/openstreetmap.dir/xml/Way.cpp.o
 openstreetmap: CMakeFiles/openstreetmap.dir/xml/Osm.cpp.o
 openstreetmap: CMakeFiles/openstreetmap.dir/xml/Relation.cpp.o
+openstreetmap: CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o
+openstreetmap: CMakeFiles/openstreetmap.dir/graph/graph.cpp.o
+openstreetmap: CMakeFiles/openstreetmap.dir/graph/queue.cpp.o
 openstreetmap: CMakeFiles/openstreetmap.dir/build.make
 openstreetmap: CMakeFiles/openstreetmap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable openstreetmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable openstreetmap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openstreetmap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

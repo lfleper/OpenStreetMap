@@ -82,6 +82,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/graph.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/knoten.h">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp">
+			<Option target="openstreetmap"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/queue.h">
+			<Option target="openstreetmap"/>
+		</Unit>
 		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/main.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>

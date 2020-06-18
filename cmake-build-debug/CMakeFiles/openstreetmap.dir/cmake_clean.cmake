@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o"
+  "CMakeFiles/openstreetmap.dir/graph/graph.cpp.o"
+  "CMakeFiles/openstreetmap.dir/graph/queue.cpp.o"
   "CMakeFiles/openstreetmap.dir/main.cpp.o"
   "CMakeFiles/openstreetmap.dir/pugixml-1.10/src/pugixml.cpp.o"
   "CMakeFiles/openstreetmap.dir/rest/APIController.cpp.o"
