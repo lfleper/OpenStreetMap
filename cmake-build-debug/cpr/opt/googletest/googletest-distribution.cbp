@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="googletest-distribution"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cpr\;CMake Files\cpr\opt\;CMake Files\cpr\opt\curl\;CMake Files\cpr\opt\curl\CMake\;CMake Files\cpr\opt\curl\docs\;CMake Files\cpr\opt\curl\docs\libcurl\;CMake Files\cpr\opt\curl\docs\libcurl\opts\;CMake Files\cpr\opt\curl\docs\cmdline-opts\;CMake Files\cpr\opt\curl\lib\;CMake Files\cpr\opt\googletest\;CMake Files\cpr\opt\googletest\googlemock\;CMake Files\cpr\opt\googletest\googlemock\cmake\;CMake Files\cpr\opt\googletest\googletest\;CMake Files\cpr\opt\googletest\googletest\cmake\;CMake Files\cpr\opt\mongoose\;CMake Files\cpr\cpr\;CMake Files\cpr\test\;CMake Files\cpr\test\data\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\cpr\;CMake Files\cmake-build-debug\cpr\opt\;CMake Files\cmake-build-debug\cpr\opt\curl\;CMake Files\cmake-build-debug\cpr\opt\curl\docs\;CMake Files\cmake-build-debug\cpr\opt\curl\docs\libcurl\;CMake Files\cmake-build-debug\cpr\opt\curl\docs\libcurl\opts\;CMake Files\cmake-build-debug\cpr\opt\curl\docs\cmdline-opts\;CMake Files\cmake-build-debug\cpr\opt\curl\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgmock_maind.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgmock_maind.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgmockd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgmockd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgtest_maind.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgtest_maind.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgtestd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib/libgtestd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DBUILD_CPR_TESTS"/>
+					<Add option="-DCMAKE_USE_OPENSSL"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/include"/>
+					<Add directory="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/curl-config.in">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/libcurl.pc.in">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/CurlSymbolHiding.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/CurlTests.c">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/FindLibSSH2.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/OtherTests.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/Utilities.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/CMake/curl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\docs\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/docs/libcurl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\docs\libcurl\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/docs/libcurl/opts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\docs\libcurl\opts\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/docs/cmdline-opts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\docs\cmdline-opts\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\lib\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/curl/lib/curl_config.h.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\curl\lib\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cpr\opt\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/opt/mongoose/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\opt\mongoose\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\cpr\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr\test\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/test/data/client.cer">
+			<Option virtualFolder="CMake Files\cpr\test\data\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/test/data/client.key">
+			<Option virtualFolder="CMake Files\cpr\test\data\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/test/data/server.cer">
+			<Option virtualFolder="CMake Files\cpr\test\data\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cpr/test/data/server.key">
+			<Option virtualFolder="CMake Files\cpr\test\data\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/curl/docs/libcurl/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr\opt\curl\docs\libcurl\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/curl/docs/libcurl/opts/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr\opt\curl\docs\libcurl\opts\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/curl/docs/cmdline-opts/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr\opt\curl\docs\cmdline-opts\"/>
+		</Unit>
+		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/cpr/opt/curl/lib/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr\opt\curl\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

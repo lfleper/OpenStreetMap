@@ -10,6 +10,23 @@
 
 Graph::Graph() {
     knotenzahl = 0;
+    for(int i = 0; i < MAX_KNOTEN; ++i) {
+        Adj[i] = new int[MAX_KNOTEN];
+    }
+    for (int i = 0; i < MAX_KNOTEN; i++) {
+        for (int l = 0; l < MAX_KNOTEN; l++) {
+            Adj[i][l] = 0;
+        }
+    }
+}
+
+Graph::~Graph() {
+    for(int i = 0; i < MAX_KNOTEN; ++i) {
+        delete [] Adj[i];
+    }
+    delete[] Adj;
+
+    cout << "graph deleted" << endl;
 }
 
 int LoadGraph(istream &is, Graph &G)
@@ -81,7 +98,7 @@ int LoadGraph(istream &is, Graph &G)
 
 void SaveGraph(ostream &os, Graph &G) {
     int error = 0;
-    int intValue, vertex, edge;
+    int intValue;
     string tmpString;
     bool stop = false;
 
@@ -96,7 +113,7 @@ void SaveGraph(ostream &os, Graph &G) {
     }
     int count = 1;
     while (error == 0 && !stop) {
-        for (int l = 0; l < G.knotenzahl; l++) {
+        for (int l = 0; l < G.knotenzahl - 1; l++) {
             os << "V " + std::to_string(count) + " \"" + G.V[l+1].name + "\"\n";
 
             for (int i = 1; i <= G.knotenzahl; i++) {

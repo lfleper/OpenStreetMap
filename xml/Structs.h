@@ -23,7 +23,7 @@ typedef struct {
 } tag_t;
 
 typedef struct {
-    int ref;
+    long ref;
 } nd_t;
 
 typedef struct {

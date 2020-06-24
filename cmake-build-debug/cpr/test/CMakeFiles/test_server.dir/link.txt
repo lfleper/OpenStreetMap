@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libtest_server.so -o ../../lib/libtest_server.so CMakeFiles/test_server.dir/abstractServer.cpp.o CMakeFiles/test_server.dir/httpServer.cpp.o CMakeFiles/test_server.dir/httpsServer.cpp.o  -Wl,-rpath,/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/lib ../../lib/libmongoose.so -lpthread -lssl -lcrypto 

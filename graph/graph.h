@@ -11,7 +11,7 @@ benutzt wird
 #include <ostream>
 using namespace std;
 
-const int MAX_KNOTEN=100;
+const int MAX_KNOTEN=5646 + 1;
 
 /**
  * @brief Graph
@@ -21,8 +21,9 @@ class Graph
 public:
     Knoten V[MAX_KNOTEN];               // Feld aller Knoten
     int knotenzahl;                     // Anzahl, der im Graph definierten Knoten
-    int Adj[MAX_KNOTEN][MAX_KNOTEN];    // Adjazentmatrix
+    int** Adj = new int*[MAX_KNOTEN];    // Adjazentmatrix
     Graph();                // knotenzahl auf 0 setzen, Adjazentmatrix löschen
+    ~Graph();
 };
 
 /**

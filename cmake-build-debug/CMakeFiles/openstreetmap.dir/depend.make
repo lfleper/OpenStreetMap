@@ -3,6 +3,11 @@
 
 CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../graph/GraphService.cpp
 CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../graph/GraphService.h
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../graph/graph.h
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../graph/knoten.h
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../xml/Node.h
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../xml/Osm.h
+CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../xml/Relation.h
 CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../xml/Structs.h
 CMakeFiles/openstreetmap.dir/graph/GraphService.cpp.o: ../xml/Way.h
 
@@ -14,6 +19,7 @@ CMakeFiles/openstreetmap.dir/graph/graph.cpp.o: ../graph/queue.h
 CMakeFiles/openstreetmap.dir/graph/queue.cpp.o: ../graph/queue.cpp
 CMakeFiles/openstreetmap.dir/graph/queue.cpp.o: ../graph/queue.h
 
+CMakeFiles/openstreetmap.dir/main.cpp.o: ../graph/GraphService.h
 CMakeFiles/openstreetmap.dir/main.cpp.o: ../graph/graph.h
 CMakeFiles/openstreetmap.dir/main.cpp.o: ../graph/knoten.h
 CMakeFiles/openstreetmap.dir/main.cpp.o: ../main.cpp

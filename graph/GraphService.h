@@ -9,13 +9,15 @@
 #include <vector>
 #include "../xml/Way.h"
 #include "../xml/Structs.h"
+#include "../xml/Osm.h"
+#include "graph.h"
 
 class GraphService {
 private:
-
+    Osm osm;
 public:
-    GraphService();
-    void printConnectedWays(std::vector<Way> ways);
+    GraphService(Osm osm);
+    Graph getGraph();
 };
 
 

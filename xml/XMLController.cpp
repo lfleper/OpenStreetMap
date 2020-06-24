@@ -66,7 +66,7 @@ Osm XMLController::parse() {
             vector<nd_t> nds;
             for (xml_node n = way.child("nd"); n; n = n.next_sibling("nd")) {
                 nd_t tmp_ns;
-                tmp_ns.ref = n.attribute("ref").as_int();
+                tmp_ns.ref = n.attribute("ref").as_llong();
                 nds.push_back(tmp_ns);
             }
             vector<tag_t> tags;
