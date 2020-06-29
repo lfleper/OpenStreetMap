@@ -6,113 +6,61 @@
 
 #IncludeRegexTransform: 
 
-/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/GraphService.cpp
 map
 -
 GraphService.h
-/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/GraphService.h
+math.h
+-
 
-/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/GraphService.h
 vector
 -
 ../xml/Way.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Way.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Way.h
 ../xml/Structs.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 ../xml/Osm.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Osm.h
 graph.h
-/home/lfleper/CLionProjects/openstreetmap/graph/graph.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/graph.h
 
-/home/lfleper/CLionProjects/openstreetmap/graph/graph.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/graph.h
 knoten.h
-/home/lfleper/CLionProjects/openstreetmap/graph/knoten.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/knoten.h
 ostream
 -
 
-/home/lfleper/CLionProjects/openstreetmap/graph/knoten.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/knoten.h
 climits
 -
 string
 -
 
-/home/lfleper/CLionProjects/openstreetmap/main.cpp
-iostream
--
-rest/APIController.h
-/home/lfleper/CLionProjects/openstreetmap/rest/APIController.h
-xml/XMLController.h
-/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.h
-graph/GraphService.h
-/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.h
-xml/Osm.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h
-fstream
--
-graph/graph.h
-/home/lfleper/CLionProjects/openstreetmap/graph/graph.h
-
-/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugiconfig.hpp
-
-/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.hpp
-pugiconfig.hpp
-/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugiconfig.hpp
-stddef.h
--
-exception
--
-iterator
--
-iosfwd
--
-string
--
-
-/home/lfleper/CLionProjects/openstreetmap/rest/APIController.cpp
-APIController.h
-/home/lfleper/CLionProjects/openstreetmap/rest/APIController.h
-iostream
--
-CURLplusplus.h
-/home/lfleper/CLionProjects/openstreetmap/rest/CURLplusplus.h
-
-/home/lfleper/CLionProjects/openstreetmap/rest/APIController.h
-iostream
--
-
-/home/lfleper/CLionProjects/openstreetmap/rest/CURLplusplus.h
-curl/curl.h
--
-iostream
--
-string
--
-sstream
--
-
-/home/lfleper/CLionProjects/openstreetmap/xml/Node.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Node.h
 Structs.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 
-/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Osm.h
 iostream
 -
 Structs.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 Way.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Way.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Way.h
 Node.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Node.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Node.h
 Relation.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Relation.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Relation.h
 
-/home/lfleper/CLionProjects/openstreetmap/xml/Relation.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Relation.h
 iostream
 -
 Structs.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 iostream
 -
 string
@@ -120,17 +68,7 @@ string
 vector
 -
 
-/home/lfleper/CLionProjects/openstreetmap/xml/Way.h
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Way.h
 Structs.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h
-
-/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.h
-string
--
-iostream
--
-Osm.h
-/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h
-../pugixml-1.10/src/pugixml.hpp
-/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.hpp
+/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h
 

@@ -18,6 +18,8 @@ private:
 public:
     GraphService(Osm osm);
     Graph getGraph();
+    double getDistance(Node first, Node last);
+    double toRadians(double a);
 };
 
 

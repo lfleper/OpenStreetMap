@@ -8,156 +8,154 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug"/>
+				<Option working_dir="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug"/>
+				<Option working_dir="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug"/>
+				<Option working_dir="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="openstreetmap">
-				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/openstreetmap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug"/>
+				<Option output="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug/openstreetmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 openstreetmap"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 openstreetmap"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="openstreetmap/fast">
-				<Option output="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/openstreetmap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug"/>
+				<Option output="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug/openstreetmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 openstreetmap/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfleper/CLionProjects/openstreetmap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 openstreetmap/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tristan/Documents/cloud/FH-SWF/Semster\ 2/GDI\ 2/OpenStreetMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/GraphService.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/GraphService.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/GraphService.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/graph.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/graph.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/graph.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/graph.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/knoten.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/knoten.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/queue.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/queue.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/graph/queue.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/graph/queue.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/main.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/main.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugiconfig.hpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/pugixml-1.10/src/pugiconfig.hpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/pugixml-1.10/src/pugixml.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/pugixml-1.10/src/pugixml.hpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/pugixml-1.10/src/pugixml.hpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/APIController.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/rest/APIController.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/APIController.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/rest/APIController.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/rest/CURLplusplus.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/rest/CURLplusplus.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Node.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Node.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Node.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Node.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Osm.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Osm.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Osm.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Osm.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Relation.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Relation.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Relation.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Relation.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Structs.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Structs.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Way.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Way.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/Way.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/Way.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.cpp">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/XMLController.cpp">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/xml/XMLController.h">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/xml/XMLController.h">
 			<Option target="openstreetmap"/>
 		</Unit>
-		<Unit filename="/home/lfleper/CLionProjects/openstreetmap/CMakeLists.txt">
+		<Unit filename="/Users/tristan/Documents/cloud/FH-SWF/Semster 2/GDI 2/OpenStreetMap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
