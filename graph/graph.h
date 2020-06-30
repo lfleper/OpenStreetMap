@@ -9,6 +9,7 @@ benutzt wird
 
 #include "knoten.h"
 #include <ostream>
+#include <cmath>
 using namespace std;
 
 const int MAX_KNOTEN=5646 + 1;
@@ -67,8 +68,9 @@ int LoadGraph(istream &is, Graph &G);
  * @param G Graph, in dem die Kante hinzugefügt wird
  * @param u Startknoten der ungerichteten Kante
  * @param v Endknoten der ungerichteten Kante
+ * @param d distance in meter
  */
-void Insert_Edge(Graph &G, int u, int v);
+void Insert_Edge(Graph &G, int u, int v, double d);
 
 /**
  * @brief Delete_Edge Löscht eine ungerichtete Kante von Knoten u nach Knoten v

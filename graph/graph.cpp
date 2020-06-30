@@ -168,9 +168,10 @@ void BFS(Graph &G, int s) {
     }
 }
 
-void Insert_Edge(Graph &G, int u, int v) {
-    G.Adj[u][v] = 1;
-    G.Adj[v][u] = 1;
+void Insert_Edge(Graph &G, int u, int v, double d) {
+    int distance = (int)round(d);
+    G.Adj[u][v] = distance;
+    G.Adj[v][u] = distance;
 }
 
 void Delete_Edge(Graph &G, int u, int v) {

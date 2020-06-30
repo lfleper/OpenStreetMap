@@ -37,16 +37,14 @@ Graph GraphService::getGraph() {
                     for (int u = 0; u < osm.getNodes().size(); u++) {
                         if (j != 0 && w.getNd().at(j-1).ref == osm.getNodes().at(u).getId()) {
                             double distance = getDistance(osm.getNodes().at(i), osm.getNodes().at(u));
-                            cout << "Distanz zwischen " << osm.getNodes().at(i).getId() << " und " <<  osm.getNodes().at(u).getId() << " ist " << distance << endl;
-                            Insert_Edge(graph, i, u);
+                            Insert_Edge(graph, i, u, distance);
                         }
                     }
 
                     for (int u = 0; u < osm.getNodes().size(); ++u) {
                         if (j != w.getNd().size() - 1 && w.getNd().at(j+1).ref == osm.getNodes().at(u).getId()) {
                             double distance = getDistance(osm.getNodes().at(i), osm.getNodes().at(u));
-                            cout << "Distanz zwischen " << osm.getNodes().at(i).getId() << " und " <<  osm.getNodes().at(u).getId() << " ist " << distance << endl;
-                            Insert_Edge(graph, i, u);
+                            Insert_Edge(graph, i, u, distance);
                         }
                     }
                 }

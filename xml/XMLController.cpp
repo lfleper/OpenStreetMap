@@ -8,6 +8,7 @@
 #include "Structs.h"
 #include "Relation.h"
 #include <string>
+#include <cstring>
 #include "Osm.h"
 using namespace std;
 using namespace pugi;
