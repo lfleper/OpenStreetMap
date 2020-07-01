@@ -25,8 +25,6 @@ Graph::~Graph() {
         delete [] Adj[i];
     }
     delete[] Adj;
-
-    cout << "graph deleted" << endl;
 }
 
 int LoadGraph(istream &is, Graph &G)
@@ -108,7 +106,7 @@ void SaveGraph(ostream &os, Graph &G) {
         else if (intValue>MAX_KNOTEN) error=23;
         else {
             G.knotenzahl=intValue;
-            os << "G " + std::to_string(intValue) + "\n";
+            os << "G " + std::to_string(intValue-1) + "\n";
         }
     }
     int count = 1;

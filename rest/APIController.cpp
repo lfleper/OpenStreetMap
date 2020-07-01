@@ -14,3 +14,11 @@ string APIController::getResponse() {
 
     return text;
 }
+
+string APIController::getResponse(string url) {
+    CURLplusplus client;
+    string text = client.Get(url);
+
+    return text;
+}
+

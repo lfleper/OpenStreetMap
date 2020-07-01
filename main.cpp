@@ -8,9 +8,35 @@
 
 using namespace std;
 
-const char* filename = "star12-9.gdi";
+void menu();
+int printMenu();
+void example();
+void url();
 
 int main() {
+    menu();
+
+    return 0;
+}
+
+void menu() {
+    int in = 0;
+
+    while (in != 9) {
+        in = printMenu();
+        switch (in) {
+            case 1:
+                example();
+                break;
+            case 2:
+                url();
+                break;
+        }
+    }
+    cout << endl << "Beendet .." << endl;
+}
+
+void example() {
     APIController controller = APIController();
 
     XMLController xmlController = XMLController(controller.getResponse());
@@ -20,19 +46,51 @@ int main() {
     Graph g = graphService.getGraph();
 
     filebuf fb;
-    if (fb.open("osm_iserlohn.gdi", ios::out)) {
+    string filename;
+    cout << "Geben Sie einen Dateinamen ein (*.gdi): " << endl;
+    cin >> filename;
+    if (fb.open(filename, ios::out)) {
         ostream os(&fb);
-
         SaveGraph(os, g);
-
         fb.close();
     } else {
-        cout << "datei konnte nicht geöffnet werden" << endl;
+        cout << "Datei konnte nicht geöffnet werden" << endl;
     }
+}
 
-    cout << "Anzahl Knoten: " << osm.getNodes().size() << endl;
-    cout << "Anzahl Wege: " << osm.getWays().size() << endl;
+void url() {
+    APIController controller = APIController();
 
+    string url;
+    cout << "Geben Sie eine OpenStreetMap URL ein: " << endl;
+    cout << "Achtung! Zu grosse Bereiche werden von OpenStreetMap nicht als *.osm Datei ausgegeben." << endl;
+    cout << "Beispiel: [https://api.openstreetmap.org/api/0.6/map?bbox=7.6817,51.3669,7.6910,51.3723]" << endl;
+    cin >> url;
 
-    return 0;
+    XMLController xmlController = XMLController(controller.getResponse(url));
+    Osm osm = xmlController.parse();
+
+    GraphService graphService = GraphService(osm);
+    Graph g = graphService.getGraph();
+
+    filebuf fb;
+    string filename;
+    cout << "Geben Sie einen Dateinamen ein (*.gdi);" << endl;
+    cin >> filename;
+    if (fb.open(filename, ios::out)) {
+        ostream os(&fb);
+        SaveGraph(os, g);
+        fb.close();
+    } else {
+        cout << "Datei konnte nicht geöffnet werden" << endl;
+    }
+}
+
+int printMenu() {
+    int in = 0;
+    cout << "[1] Iserlohn Alexanderhöhe (Beispiel)" << endl;
+    cout << "[2] OpenStreetMap URL (API)" << endl;
+    cout << "[9] Beenden" << endl;
+    cin >> in;
+    return in;
 }

@@ -41,19 +41,32 @@ Osm XMLController::parse() {
         vector<Way> ways;
         for (xml_node way = osm.child("way"); way; way = way.next_sibling("way")) {
             vector<tag_t> tags;
-            bool hasHighway = false;
+            bool useWay = false;
             for (xml_node t = way.child("tag"); t; t = t.next_sibling("tag")) {
                 tag_t tmp_tag;
                 tmp_tag.k = t.attribute("k").as_string();
                 tmp_tag.v = t.attribute("v").as_string();
-                if(strcmp(t.attribute("k").as_string(), "highway") == 0 && strcmp(t.attribute("v").as_string(), "residential") == 0){
-                    hasHighway = true;
+                if(strcmp(t.attribute("k").as_string(), "highway") == 0 && (strcmp(t.attribute("v").as_string(), "residential") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "motorway") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "trunk") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "primary") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "secondary") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "tertiary") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "unclassified") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "motorway_link") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "trunk_link") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "primary_link") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "secondary_link") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "tertiary_link") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "living_street") == 0 ||
+                    strcmp(t.attribute("v").as_string(), "road") == 0 )){
+                    useWay = true;
                 }
                 tags.push_back(tmp_tag);
             }
 
             //filtere alle wege die kein highway mit residential sind
-            if(!hasHighway){
+            if(!useWay){
                 continue;
             }
             vector<nd_t> nds;
