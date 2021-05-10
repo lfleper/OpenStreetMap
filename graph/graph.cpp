@@ -8,6 +8,10 @@
 #include <string>
 #include <ctime>
 
+/**
+ * Konstruktor.
+ * Erzeugen der Adjazentzmatrix.
+ */
 Graph::Graph() {
     knotenzahl = 0;
     for(int i = 0; i < MAX_KNOTEN; ++i) {
@@ -20,6 +24,10 @@ Graph::Graph() {
     }
 }
 
+/**
+ * Destruktor.
+ * Freigeben der Adjazentzmatrix.
+ */
 Graph::~Graph() {
     for(int i = 0; i < MAX_KNOTEN; ++i) {
         delete [] Adj[i];
@@ -27,6 +35,14 @@ Graph::~Graph() {
     delete[] Adj;
 }
 
+/**
+ * Erzeugen dea Graphen aus einer Datei (.osm).
+ *
+ * @param is datei istream.
+ * @param G graph.
+ *
+ * @return Graph Objekt in dem gespeichert werden soll.
+ */
 int LoadGraph(istream &is, Graph &G)
 {
     int error =0;
@@ -94,6 +110,12 @@ int LoadGraph(istream &is, Graph &G)
     return error;
 }
 
+/**
+ * Abspeichern eines Graphen als .gdi Datei
+ *
+ * @param os Datei ostream.
+ * @param G Graph der ausgelesen wird.
+ */
 void SaveGraph(ostream &os, Graph &G) {
     int error = 0;
     int intValue;
@@ -125,6 +147,11 @@ void SaveGraph(ostream &os, Graph &G) {
     }
 }
 
+/**
+ * Ausgaben der Adjazentsmatrix.
+ *
+ * @param G Graph.
+ */
 void PRINT_ADJ(Graph &G) {
     for (int i = 1; i <= G.knotenzahl; i++) {
         for (int j = 1; j <= G.knotenzahl; j++) {

@@ -11,6 +11,9 @@
 #include "../pugixml-1.10/src/pugixml.hpp"
 using namespace std;
 
+/**
+ * Parsen des OSM Response.
+ */
 class XMLController {
 private:
     string file;

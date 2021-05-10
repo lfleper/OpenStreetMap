@@ -13,12 +13,20 @@ int printMenu();
 void example();
 void url();
 
+/**
+ * starten des menus.
+ *
+ * @return -
+ */
 int main() {
     menu();
 
     return 0;
 }
 
+/**
+ * auswahl des menu punkts.
+ */
 void menu() {
     int in = 0;
 
@@ -36,6 +44,9 @@ void menu() {
     cout << endl << "Beendet .." << endl;
 }
 
+/**
+ * laden der beispiel osm datei (ALEXANDERHOEHE).
+ */
 void example() {
     APIController controller = APIController();
 
@@ -53,11 +64,16 @@ void example() {
         ostream os(&fb);
         SaveGraph(os, g);
         fb.close();
+
+        cout << "Knotenzahl: " << g.knotenzahl << endl;
     } else {
         cout << "Datei konnte nicht geöffnet werden" << endl;
     }
 }
 
+/**
+ * laden einer osm datei mittels api link.
+ */
 void url() {
     APIController controller = APIController();
 
@@ -81,11 +97,18 @@ void url() {
         ostream os(&fb);
         SaveGraph(os, g);
         fb.close();
+
+        cout << "Knotenzahl: " << g.knotenzahl << endl;
     } else {
         cout << "Datei konnte nicht geöffnet werden" << endl;
     }
 }
 
+/**
+ * ausgeben des menus.
+ *
+ * @return Menu Nummer.
+ */
 int printMenu() {
     int in = 0;
     cout << "[1] Iserlohn Alexanderhöhe (Beispiel)" << endl;
