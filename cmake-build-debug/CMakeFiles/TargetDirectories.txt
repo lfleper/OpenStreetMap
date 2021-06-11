@@ -1,3 +1,0 @@
-/home/lfleper/Documents/fh_swf/semester_2/gdi2/openstreetmap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lfleper/Documents/fh_swf/semester_2/gdi2/openstreetmap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lfleper/Documents/fh_swf/semester_2/gdi2/openstreetmap/cmake-build-debug/CMakeFiles/openstreetmap.dir

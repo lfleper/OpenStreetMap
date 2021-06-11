@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libmongoose.so -o ../../../lib/libmongoose.so CMakeFiles/mongoose.dir/mongoose/mongoose.c.o  -lssl -lcrypto 
