@@ -13,7 +13,6 @@
 
 <a name="ueber"></a>
 ## Über das OpenStreetMap Projekt
----
 
 Unser Programm erstellt einen Graphen aus einem Kartenausschnitt von OpenStreetMap. Hierbei werden alle Straßen mit einbezogen. Der Graph wird als Datei im *.gdi Format im Projektordner gespeichert. Ihr werdet nach dem starten des Programmes durch das Programm geführt (Konsolenausgabe). Um einen selbst gewählten Kartenausschnitt zu verwenden, muss dieser über die Export Funktion von OpenStreetMap exportiert, und der Downloadlink in unser Programm eingefügt werden.
 
@@ -21,15 +20,11 @@ Unser Programm erstellt einen Graphen aus einem Kartenausschnitt von OpenStreetM
 
 ## Lizenz
 
----
-
 Dieses Projekt steht unter der MIT-Lizenz. Für weitere Informationen siehe [LICENCE](https://github.com/lfleper/OpenStreetMap/blob/master/LICENCE).
 
 <a name="installation"></a>
 
 ## Installation
-
----
 
 <a name="installationlinux"></a>
 
