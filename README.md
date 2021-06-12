@@ -97,8 +97,6 @@ Nun hat sich ein [build] Ordner erstellt, indem Sie die [openstreetmap] Datei fi
 
 ## Dokumentation
 
----
-
 ### Hinweise zu den OpenStreetMap Kartenausschnitten
 
 Bei der Auswahl von Kartenausschnitten gib es zwei begrenzende Faktoren:
