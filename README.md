@@ -1,16 +1,5 @@
 # OpenStreetMap
 
-## Inhalte
-
-- [Über das OpenStreetMap Projekt](#ueber)
-- [Lizenz](#lizenz)
-- [Installation](#installation)
-    - [Linux](#installationlinux)
-        - [Benötigte Abhängigkeiten]()
-        - [Programmargumente]()
-    - [Windows](#installationwindoof)
-- [Dokumentation](#dokumentation)
-
 <a name="ueber"></a>
 ## Über das OpenStreetMap Projekt
 
